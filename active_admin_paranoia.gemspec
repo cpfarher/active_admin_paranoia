@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = %w(lib)
 
   gem.add_dependency 'rails', '>= 4.0'
-  gem.add_dependency 'paranoia', '>= 1.0'
+  gem.add_dependency 'paranoia', '~> 2.2.0.pre'
 end
